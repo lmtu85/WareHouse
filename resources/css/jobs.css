@@ -1,0 +1,60 @@
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+.jobs {
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+}
+
+.jobs h3 {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #139DCC;
+  font-weight: 600;
+}
+
+label {
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-column-gap: 0.5rem;
+  align-items: flex-end;
+  margin-bottom: 3.125rem;
+}
+
+main form .button {
+  height: fit-content;
+  padding: 1.14rem 0;
+}
+
+.job-list {
+  border-top: solid 1px hsla(0, 0%, 59%, 1);
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  padding: 1.5rem 0;
+}
+
+.job span {
+  font-style: italic;
+}
+
+.job h4 {
+  padding-bottom: .5rem;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#see-all-jobs {
+  justify-self: center;
+  margin-top: 3.6875rem;
+}
